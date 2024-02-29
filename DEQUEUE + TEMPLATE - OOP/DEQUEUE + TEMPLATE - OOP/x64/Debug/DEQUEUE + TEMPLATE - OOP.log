@@ -1,0 +1,36 @@
+﻿  DEQUEUE + TEMPLATE - OOP.cpp
+D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(97,27): warning C4018: <: несоответствие типов со знаком и без знака
+  D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(97,27):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(106,36):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "ExclusionProirityQueue<std::string>"
+  	D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(94,10):
+  	во время компиляции функции-члена класс шаблон "void ExclusionProirityQueue<std::string>::Print(void) const"
+  		D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(115,12):
+  		см. первую ссылку на "ExclusionProirityQueue<std::string>::Print" в "main"
+  
+D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(80,31): warning C4018: <: несоответствие типов со знаком и без знака
+  D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(80,31):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(75,7):
+  	во время компиляции функции-члена класс шаблон "T ExclusionProirityQueue<T>::Dequeue(void)"
+          with
+          [
+              T=std::string
+          ]
+  		D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(117,14):
+  		см. первую ссылку на "ExclusionProirityQueue<std::string>::Dequeue" в "main"
+  
+D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(52,31): warning C4018: <: несоответствие типов со знаком и без знака
+  D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(52,31):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(47,10):
+  	во время компиляции функции-члена класс шаблон "void ExclusionProirityQueue<std::string>::Enqueue(T,int)"
+          with
+          [
+              T=std::string
+          ]
+  		D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP\DEQUEUE + TEMPLATE - OOP.cpp(108,14):
+  		см. первую ссылку на "ExclusionProirityQueue<std::string>::Enqueue" в "main"
+  
+  DEQUEUE + TEMPLATE - OOP.vcxproj -> D:\C++\C++ OOP\DEQUEUE + TEMPLATE - OOP\x64\Debug\DEQUEUE + TEMPLATE - OOP.exe
